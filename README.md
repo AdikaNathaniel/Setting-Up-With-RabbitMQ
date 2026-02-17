@@ -73,6 +73,8 @@ npm run start:dev
 
 The app starts on **http://localhost:3000** and automatically connects to the CloudAMQP RabbitMQ broker.
 
+> **Note:** Deploying this app to a cloud platform is **not necessary**. The RabbitMQ broker is already hosted in the cloud (CloudAMQP). The NestJS app is just a client that connects to it. Running it locally with `npm run start` is sufficient to send/receive messages and see them in the RabbitMQ Manager.
+
 ---
 
 ## Understanding the Architecture
